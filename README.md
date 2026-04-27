@@ -2,8 +2,8 @@
 
 A production-ready B2B healthcare management platform built with React, TypeScript, and Firebase. Features authentication, patient management with grid/list views, analytics dashboard, and push notifications via Service Worker.
 
-🔗 **Live Demo:** [your-vercel-url]
-📦 **Repository:** [your-github-url]
+🔗 **Live Demo:** [[demo](https://healthcare-snowy-sigma.vercel.app/)]
+📦 **Repository:** [[github-repo](https://github.com/Suyog5300/B2B-Healthcare-SaaS)]
 
 ## ✨ Features
 
@@ -128,7 +128,3 @@ VITE_FIREBASE_APP_ID=
 - Role-based access control (Admin, Doctor, Nurse)
 - Export reports (PDF/CSV)
 - Micro-frontend split (auth as separate app)
-
-## 📄 License
-
-MIT
