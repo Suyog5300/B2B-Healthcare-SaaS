@@ -28,14 +28,14 @@ export const Sidebar = ({ open, onClose }: SidebarProps) => {
         />
       )}
 
-      <aside
-        className={cn(
-          'fixed inset-y-0 left-0 z-40 flex w-64 flex-col border-r border-slate-200 bg-white transition-transform',
-          'dark:border-slate-800 dark:bg-slate-900',
-          'lg:translate-x-0 lg:static lg:z-0',
-          open ? 'translate-x-0' : '-translate-x-full'
-        )}
-      >
+<aside
+  className={cn(
+    'fixed inset-y-0 left-0 z-40 flex w-64 flex-col border-r border-slate-200 bg-white transition-transform',
+    'dark:border-slate-800 dark:bg-slate-900',
+    'lg:translate-x-0',
+    open ? 'translate-x-0' : '-translate-x-full'
+  )}
+>
         {/* Logo */}
         <div className="flex h-16 items-center justify-between border-b border-slate-200 px-6 dark:border-slate-800">
           <div className="flex items-center gap-2">
