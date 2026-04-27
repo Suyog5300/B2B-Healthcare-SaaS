@@ -88,9 +88,9 @@ const LoginPage = () => {
           <p className="font-medium">Demo credentials:</p>
           <p>Email: demo@healthcare.com</p>
           <p>Password: demo123</p>
-          <p className="mt-1 italic">
+          {/* <p className="mt-1 italic">
             (Create this user in your Firebase console under Authentication → Users)
-          </p>
+          </p> */}
         </div>
       </form>
     </div>
